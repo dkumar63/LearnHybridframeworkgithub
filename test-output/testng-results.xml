@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18679" started-at="2017-02-11T02:49:10Z" finished-at="2017-02-11T02:49:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18679" started-at="2017-02-11T02:49:10Z" finished-at="2017-02-11T02:49:29Z">
+      <class name="testcases.VerifyLoginpageWithReportNScreenshot">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLoginpageWithReportNScreenshot@d8355a8]" name="setup" is-config="true" duration-ms="9490" started-at="2017-02-11T08:19:10Z" finished-at="2017-02-11T08:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:testcases.VerifyLoginpageWithReportNScreenshot@d8355a8]" name="VerifyLogin" duration-ms="7728" started-at="2017-02-11T08:19:20Z" finished-at="2017-02-11T08:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="Closebrower(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginpageWithReportNScreenshot@d8355a8]" name="Closebrower" is-config="true" duration-ms="1435" started-at="2017-02-11T08:19:27Z" finished-at="2017-02-11T08:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=VerifyLoginpageWithReportNScreenshot.VerifyLogin()[pri:0, instance:testcases.VerifyLoginpageWithReportNScreenshot@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrower -->
+      </class> <!-- testcases.VerifyLoginpageWithReportNScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
